@@ -355,6 +355,7 @@ class ActivityLog extends FormWidgetBase
      */
     public function loadAssets()
     {
+        $this->assetPath = '/plugins/luketowers/easyaudit/formwidgets/activitylog/assets';
         $this->addCss(['less/activitylog.less'], 'LukeTowers.EasyAudit');
         $this->addJs('js/activitylog.js', 'LukeTowers.EasyAudit');
     }
